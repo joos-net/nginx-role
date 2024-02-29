@@ -6,17 +6,7 @@ This role cann install nginx for lighthouse
 Requirements
 ------------
 
--
-
-Role Variables
---------------
-
--
-
-Dependencies
-------------
-
--
+Ansible >= 2.7 (It might work on previous versions, but we cannot guarantee it)
 
 Example Playbook
 ----------------
@@ -26,11 +16,6 @@ Including an example of how to use your role (for instance, with variables passe
     - hosts: servers
       roles:
          - { role: nginx-role}
-
-License
--------
-
-MIT
 
 Author Information
 ------------------
