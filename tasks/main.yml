@@ -26,3 +26,6 @@
     when: "'lighthouse' in inventory_hostname"
     notify:
       - Restart nginx
+
+
+### some commit to merge
